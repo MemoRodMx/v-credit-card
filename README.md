@@ -7,7 +7,7 @@ Beautiful card form component for VueJS inspired by Adam Quinlan https://codepen
 #### Installation
 
 ```
-npm install --save v-credit-card-mrod-mx
+npm install --save v-credit-card-mrodmx
 ```
 
 #### usage
