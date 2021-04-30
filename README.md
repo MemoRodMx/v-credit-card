@@ -16,7 +16,7 @@ Register the component as a plugin and use it globally
 
 ```js
 import Vue from "vue";
-import VCreditCard from "v-credit-card";
+import VCreditCard from "v-credit-card-mrodmx";
 
 Vue.component("v-credit-card", VCreditCard);
 
@@ -32,7 +32,7 @@ Or, import inside a component
 </template>
 
 <script>
-  import VCreditCard from "v-credit-card";
+  import VCreditCard from "v-credit-card-mrodmx";
 
   export default {
     components: {
@@ -47,8 +47,8 @@ Or, import inside a component
 You must import the CSS to get all the card styles
 
 ```js
-import VCreditCard from "v-credit-card";
-import "v-credit-card/dist/VCreditCard.css";
+import VCreditCard from "v-credit-card-mrodmx";
+import "v-credit-card-mrodmx/dist/VCreditCard.css";
 ```
 
 #### Available props
