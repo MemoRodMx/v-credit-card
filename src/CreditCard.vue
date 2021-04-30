@@ -165,9 +165,6 @@ export default {
     nameMaxLength: {
       type: Number,
       default: 20,
-      validator(value) {
-        return [2, 4].includes(value);
-      },
     },
   },
   mounted() {
