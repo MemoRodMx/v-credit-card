@@ -65,7 +65,7 @@
               id="expirationdate"
               pattern="[0-9\/]*"
               ref="expiration"
-              :placeholder="'MM/' + this.yearHolder"
+              :placeholder="`MM/${this.yearHolder}`"
               inputmode="numeric"
               @focus="flipped = false"
             />
@@ -245,7 +245,7 @@ export default {
     },
     yearHolder() {
       return Array.from({ length: this.yearDigits }, () => {
-        return this.defaultTranslations.year.char;
+        return this.trans.year.char;
       }).join("");
     },
   },
