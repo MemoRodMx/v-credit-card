@@ -57,7 +57,7 @@
         <div class="field-group">
           <div class="field">
             <label for="expirationdate"
-              >{{ trans.expiration.label }} (mm/{{ this.yearHolder }})</label
+              >{{ trans.expiration.label }} (MM/{{ this.yearHolder }})</label
             >
             <input
               type="text"
@@ -480,7 +480,8 @@ export default {
     }
 
     .st6 {
-      font-size: 33.1112px;
+      font-size: 22.1112px;
+      /*font-size: 33.1112px;*/
     }
 
     .st7 {
